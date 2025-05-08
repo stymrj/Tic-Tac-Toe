@@ -1,0 +1,59 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f6f9fc, #d9e4f5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Title styling */
+h1#output {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #2b2b2b;
+    text-shadow: 1px 1px 2px #ccc;
+}
+h2#output {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #2b2b2b;
+    text-shadow: 1px 1px 2px #ccc;
+}
+/* Center table and make it responsive */
+table {
+    border-spacing: 10px;
+}
+
+/* Style the buttons (cells) */
+button {
+    height: 100px;
+    width: 100px;
+    background-color: #ffffff;
+    border: 3px solid #0077ff;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0077ff;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #e6f0ff;
+    transform: scale(1.05);
+}
+
+button:disabled {
+    background-color: #f0f0f0;
+    color: #999;
+    cursor: not-allowed;
+}
